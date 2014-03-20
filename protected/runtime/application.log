@@ -733,3 +733,313 @@ Stack trace:
 #14 {main}
 REQUEST_URI=/index.php?r=site/mp
 ---
+2014/03/20 19:28:04 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:40:06 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:40:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "users".' in /home/alex/projects/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('users')
+#1 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/alex/projects/messi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=users
+---
+2014/03/20 19:40:13 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:43:11 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:43:12 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:44:46 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:44:46 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:44:47 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:44:47 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:44:48 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:44:48 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:44:48 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:46:50 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:46:51 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:46:51 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:48:17 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:48:17 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:50:11 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:50:12 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:50:13 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:50:14 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:50:40 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:51:23 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:51:24 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:52:31 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
+2014/03/20 19:54:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "пшш".' in /home/alex/projects/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('??????')
+#1 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/alex/projects/messi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=%D0%BF%D1%88%D1%88
+---
+2014/03/20 20:04:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "пшш".' in /home/alex/projects/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('??????')
+#1 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/alex/projects/messi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=%D0%BF%D1%88%D1%88
+---
+2014/03/20 20:23:09 [error] [php] include(GxController.php): failed to open stream: No such file or directory (/home/alex/projects/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/projects/messi/protected/controllers/UserController.php(3): spl_autoload_call()
+#1 /home/alex/projects/yii/framework/web/CWebApplication.php(354): require()
+#2 /home/alex/projects/yii/framework/web/CWebApplication.php(276): CWebApplication->createController()
+#3 /home/alex/projects/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /home/alex/projects/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /home/alex/projects/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user
+in /home/alex/projects/messi/protected/controllers/UserController.php (3)
+in /home/alex/projects/messi/index.php (13)
