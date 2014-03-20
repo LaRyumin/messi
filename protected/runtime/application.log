@@ -1,0 +1,735 @@
+2014/03/12 10:40:34 [error] [php] include(CUserIdentity1.php): failed to open stream: No such file or directory (/home/alex/php/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/php/messi/protected/components/UserIdentity.php(9): spl_autoload_call()
+#1 /home/alex/php/yii/framework/YiiBase.php(427): include()
+#2 unknown(0): autoload()
+#3 /home/alex/php/messi/protected/models/LoginForm.php(51): spl_autoload_call()
+#4 /home/alex/php/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate()
+#5 /home/alex/php/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute()
+#6 /home/alex/php/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#7 /home/alex/php/messi/protected/controllers/SiteController.php(94): LoginForm->validate()
+#8 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#9 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /home/alex/php/yii/framework/web/CController.php(286): SiteController->runAction()
+#11 /home/alex/php/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /home/alex/php/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /home/alex/php/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/login
+in /home/alex/php/messi/protected/components/UserIdentity.php (9)
+in /home/alex/php/messi/protected/models/LoginForm.php (51)
+in /home/alex/php/messi/protected/controllers/SiteController.php (94)
+2014/03/12 10:42:06 [error] [php] include(CUserIdentitys.php): failed to open stream: No such file or directory (/home/alex/php/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/php/messi/protected/components/UserIdentity.php(9): spl_autoload_call()
+#1 /home/alex/php/yii/framework/YiiBase.php(427): include()
+#2 unknown(0): autoload()
+#3 /home/alex/php/messi/protected/models/LoginForm.php(51): spl_autoload_call()
+#4 /home/alex/php/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate()
+#5 /home/alex/php/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute()
+#6 /home/alex/php/yii/framework/base/CModel.php(159): CInlineValidator->validate()
+#7 /home/alex/php/messi/protected/controllers/SiteController.php(94): LoginForm->validate()
+#8 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionLogin()
+#9 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#10 /home/alex/php/yii/framework/web/CController.php(286): SiteController->runAction()
+#11 /home/alex/php/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#12 /home/alex/php/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#13 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#14 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /home/alex/php/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/login
+in /home/alex/php/messi/protected/components/UserIdentity.php (9)
+in /home/alex/php/messi/protected/models/LoginForm.php (51)
+in /home/alex/php/messi/protected/controllers/SiteController.php (94)
+2014/03/15 19:54:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /home/alex/php/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/alex/php/messi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/03/16 00:54:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /home/alex/php/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/alex/php/messi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/03/17 14:17:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /home/alex/php/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/alex/php/messi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/03/17 19:46:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /home/alex/php/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/alex/php/messi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/03/17 19:46:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /home/alex/php/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/alex/php/messi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/03/17 19:47:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /home/alex/php/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/alex/php/messi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/03/17 20:04:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in /home/alex/php/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user')
+#1 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/alex/php/messi/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=user
+---
+2014/03/17 20:07:38 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'alex' for key 'name'. The SQL statement executed was: INSERT INTO `tbl_user` (`name`, `password`, `email`) VALUES (:yp0, :yp1, :yp2). Bound with :yp0='alex', :yp1=123123, :yp2=NULL.
+in /home/alex/php/messi/protected/controllers/UserController.php (19)
+in /home/alex/php/messi/index.php (13)
+2014/03/17 20:07:38 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'alex' for key 'name'. The SQL statement executed was: INSERT INTO `tbl_user` (`name`, `password`, `email`) VALUES (:yp0, :yp1, :yp2). Bound with :yp0='alex', :yp1=123123, :yp2=NULL' in /home/alex/php/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /home/alex/php/messi/protected/controllers/UserController.php(19): CActiveRecord->save()
+#3 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#4 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/alex/php/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/alex/php/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#8 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/create')
+#9 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/alex/php/messi/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=user/create
+HTTP_REFERER=http://messi/index.php?r=user/create
+---
+2014/03/18 11:30:53 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'alex' for key 'name'. The SQL statement executed was: INSERT INTO `tbl_user` (`name`, `password`, `email`) VALUES (:yp0, :yp1, :yp2). Bound with :yp0='alex', :yp1=123123, :yp2=NULL.
+in /home/alex/php/messi/protected/controllers/UserController.php (19)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:30:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'alex' for key 'name'. The SQL statement executed was: INSERT INTO `tbl_user` (`name`, `password`, `email`) VALUES (:yp0, :yp1, :yp2). Bound with :yp0='alex', :yp1=123123, :yp2=NULL' in /home/alex/php/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /home/alex/php/messi/protected/controllers/UserController.php(19): CActiveRecord->save()
+#3 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#4 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/alex/php/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/alex/php/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#8 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/create')
+#9 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/alex/php/messi/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=user/create
+HTTP_REFERER=http://messi/index.php?r=user/create
+---
+2014/03/18 11:32:49 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'alex' for key 'name'. The SQL statement executed was: INSERT INTO `tbl_user` (`name`, `password`, `email`) VALUES (:yp0, :yp1, :yp2). Bound with :yp0='alex', :yp1=123123123, :yp2=NULL.
+in /home/alex/php/messi/protected/controllers/UserController.php (19)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:32:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'alex' for key 'name'. The SQL statement executed was: INSERT INTO `tbl_user` (`name`, `password`, `email`) VALUES (:yp0, :yp1, :yp2). Bound with :yp0='alex', :yp1=123123123, :yp2=NULL' in /home/alex/php/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /home/alex/php/messi/protected/controllers/UserController.php(19): CActiveRecord->save()
+#3 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#4 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/alex/php/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/alex/php/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#8 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/create')
+#9 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/alex/php/messi/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=user/create
+HTTP_REFERER=http://messi/index.php?r=user/create
+---
+2014/03/18 11:35:09 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'alex' for key 'name'. The SQL statement executed was: INSERT INTO `tbl_user` (`name`, `password`, `email`) VALUES (:yp0, :yp1, :yp2). Bound with :yp0='alex', :yp1=12, :yp2=NULL.
+in /home/alex/php/messi/protected/controllers/UserController.php (19)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:35:09 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'alex' for key 'name'. The SQL statement executed was: INSERT INTO `tbl_user` (`name`, `password`, `email`) VALUES (:yp0, :yp1, :yp2). Bound with :yp0='alex', :yp1=12, :yp2=NULL' in /home/alex/php/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /home/alex/php/messi/protected/controllers/UserController.php(19): CActiveRecord->save()
+#3 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#4 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/alex/php/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/alex/php/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#8 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/create')
+#9 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/alex/php/messi/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=user/create
+HTTP_REFERER=http://messi/index.php?r=user/create
+---
+2014/03/18 11:35:20 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'alex' for key 'name'. The SQL statement executed was: INSERT INTO `tbl_user` (`name`, `password`, `email`) VALUES (:yp0, :yp1, :yp2). Bound with :yp0='alex', :yp1=123123, :yp2=NULL.
+in /home/alex/php/messi/protected/controllers/UserController.php (19)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:35:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'alex' for key 'name'. The SQL statement executed was: INSERT INTO `tbl_user` (`name`, `password`, `email`) VALUES (:yp0, :yp1, :yp2). Bound with :yp0='alex', :yp1=123123, :yp2=NULL' in /home/alex/php/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /home/alex/php/messi/protected/controllers/UserController.php(19): CActiveRecord->save()
+#3 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#4 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/alex/php/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/alex/php/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#8 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/create')
+#9 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/alex/php/messi/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=user/create
+HTTP_REFERER=http://messi/index.php?r=user/create
+---
+2014/03/18 11:35:46 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'alex' for key 'name'. The SQL statement executed was: INSERT INTO `tbl_user` (`name`, `password`, `email`) VALUES (:yp0, :yp1, :yp2). Bound with :yp0='alex', :yp1=23123, :yp2=NULL.
+in /home/alex/php/messi/protected/controllers/UserController.php (19)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:35:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'alex' for key 'name'. The SQL statement executed was: INSERT INTO `tbl_user` (`name`, `password`, `email`) VALUES (:yp0, :yp1, :yp2). Bound with :yp0='alex', :yp1=23123, :yp2=NULL' in /home/alex/php/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /home/alex/php/messi/protected/controllers/UserController.php(19): CActiveRecord->save()
+#3 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#4 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/alex/php/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/alex/php/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#8 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/create')
+#9 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/alex/php/messi/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=user/create
+HTTP_REFERER=http://messi/index.php?r=user/create
+---
+2014/03/18 11:39:59 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:39:59 [warning] [application] Failed to set unsafe attribute "email" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:40:06 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:40:06 [warning] [application] Failed to set unsafe attribute "email" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:45:35 [warning] [application] Failed to set unsafe attribute "name" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:45:35 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:45:35 [warning] [application] Failed to set unsafe attribute "email" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:46:19 [warning] [application] Failed to set unsafe attribute "name" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:46:19 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:46:19 [warning] [application] Failed to set unsafe attribute "email" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:46:19 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'name'. The SQL statement executed was: INSERT INTO `tbl_user` (`id`) VALUES (NULL).
+in /home/alex/php/messi/protected/controllers/UserController.php (19)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:46:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'name'. The SQL statement executed was: INSERT INTO `tbl_user` (`id`) VALUES (NULL)' in /home/alex/php/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /home/alex/php/messi/protected/controllers/UserController.php(19): CActiveRecord->save()
+#3 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#4 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/alex/php/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/alex/php/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#8 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/create')
+#9 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/alex/php/messi/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=user/create
+HTTP_REFERER=http://messi/index.php?r=user/create
+---
+2014/03/18 11:46:43 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:46:43 [warning] [application] Failed to set unsafe attribute "email" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:47:22 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:47:22 [warning] [application] Failed to set unsafe attribute "email" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:47:22 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'name'. The SQL statement executed was: INSERT INTO `tbl_user` (`name`) VALUES (:yp0). Bound with :yp0=''.
+in /home/alex/php/messi/protected/controllers/UserController.php (19)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:47:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'name'. The SQL statement executed was: INSERT INTO `tbl_user` (`name`) VALUES (:yp0). Bound with :yp0=''' in /home/alex/php/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /home/alex/php/messi/protected/controllers/UserController.php(19): CActiveRecord->save()
+#3 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#4 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/alex/php/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/alex/php/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#8 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/create')
+#9 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/alex/php/messi/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=user/create
+HTTP_REFERER=http://messi/index.php?r=user/create
+---
+2014/03/18 11:47:39 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:47:39 [warning] [application] Failed to set unsafe attribute "email" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:47:39 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'name'. The SQL statement executed was: INSERT INTO `tbl_user` (`name`) VALUES (:yp0). Bound with :yp0=''.
+in /home/alex/php/messi/protected/controllers/UserController.php (19)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:47:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'name'. The SQL statement executed was: INSERT INTO `tbl_user` (`name`) VALUES (:yp0). Bound with :yp0=''' in /home/alex/php/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /home/alex/php/messi/protected/controllers/UserController.php(19): CActiveRecord->save()
+#3 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#4 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/alex/php/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/alex/php/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#8 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/create')
+#9 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/alex/php/messi/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=user/create
+HTTP_REFERER=http://messi/index.php?r=user/create
+---
+2014/03/18 11:48:44 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 11:48:44 [warning] [application] Failed to set unsafe attribute "email" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 12:00:49 [error] [php] include(fullPattern.php): failed to open stream: No such file or directory (/home/alex/php/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/php/yii/framework/validators/CValidator.php(186): import()
+#1 /home/alex/php/yii/framework/base/CModel.php(287): createValidator()
+#2 /home/alex/php/yii/framework/base/CModel.php(260): User->createValidators()
+#3 /home/alex/php/yii/framework/base/CModel.php(547): User->getValidators()
+#4 /home/alex/php/yii/framework/base/CModel.php(468): User->getSafeAttributeNames()
+#5 /home/alex/php/messi/protected/controllers/UserController.php(17): User->setAttributes()
+#6 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#7 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /home/alex/php/yii/framework/web/CController.php(286): UserController->runAction()
+#9 /home/alex/php/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#10 /home/alex/php/yii/framework/web/CWebApplication.php(282): UserController->run()
+#11 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/alex/php/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user/create
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 12:01:07 [error] [php] include(fullPattern.php): failed to open stream: No such file or directory (/home/alex/php/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/php/yii/framework/validators/CValidator.php(186): import()
+#1 /home/alex/php/yii/framework/base/CModel.php(287): createValidator()
+#2 /home/alex/php/yii/framework/base/CModel.php(260): User->createValidators()
+#3 /home/alex/php/yii/framework/base/CModel.php(547): User->getValidators()
+#4 /home/alex/php/yii/framework/base/CModel.php(468): User->getSafeAttributeNames()
+#5 /home/alex/php/messi/protected/controllers/UserController.php(17): User->setAttributes()
+#6 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#7 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#8 /home/alex/php/yii/framework/web/CController.php(286): UserController->runAction()
+#9 /home/alex/php/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#10 /home/alex/php/yii/framework/web/CWebApplication.php(282): UserController->run()
+#11 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#12 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/alex/php/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user/create
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 12:01:10 [error] [php] include(fullPattern.php): failed to open stream: No such file or directory (/home/alex/php/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/php/yii/framework/validators/CValidator.php(186): import()
+#1 /home/alex/php/yii/framework/base/CModel.php(287): createValidator()
+#2 /home/alex/php/yii/framework/base/CModel.php(260): User->createValidators()
+#3 /home/alex/php/yii/framework/base/CModel.php(304): User->getValidators()
+#4 /home/alex/php/yii/framework/web/helpers/CHtml.php(1414): User->isAttributeRequired()
+#5 /home/alex/php/yii/framework/web/widgets/CActiveForm.php(597): activeLabelEx()
+#6 /home/alex/php/messi/protected/views/user/_form.php(17): GxActiveForm->labelEx()
+#7 /home/alex/php/yii/framework/web/CBaseController.php(126): require()
+#8 /home/alex/php/yii/framework/web/CBaseController.php(95): UserController->renderInternal()
+#9 /home/alex/php/yii/framework/web/CController.php(869): UserController->renderFile()
+#10 /home/alex/php/messi/protected/views/user/create.php(19): UserController->renderPartial()
+#11 /home/alex/php/yii/framework/web/CBaseController.php(126): require()
+#12 /home/alex/php/yii/framework/web/CBaseController.php(95): UserController->renderInternal()
+#13 /home/alex/php/yii/framework/web/CController.php(869): UserController->renderFile()
+#14 /home/alex/php/yii/framework/web/CController.php(782): UserController->renderPartial()
+#15 /home/alex/php/messi/protected/controllers/UserController.php(27): UserController->render()
+#16 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#17 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#18 /home/alex/php/yii/framework/web/CController.php(286): UserController->runAction()
+#19 /home/alex/php/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#20 /home/alex/php/yii/framework/web/CWebApplication.php(282): UserController->run()
+#21 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#22 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /home/alex/php/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user/create
+in /home/alex/php/messi/protected/views/user/_form.php (17)
+in /home/alex/php/messi/protected/views/user/create.php (19)
+in /home/alex/php/messi/protected/controllers/UserController.php (27)
+2014/03/18 12:01:16 [error] [php] include(fullPattern.php): failed to open stream: No such file or directory (/home/alex/php/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/alex/php/yii/framework/validators/CValidator.php(186): import()
+#1 /home/alex/php/yii/framework/base/CModel.php(287): createValidator()
+#2 /home/alex/php/yii/framework/base/CModel.php(260): User->createValidators()
+#3 /home/alex/php/yii/framework/base/CModel.php(304): User->getValidators()
+#4 /home/alex/php/yii/framework/web/helpers/CHtml.php(1414): User->isAttributeRequired()
+#5 /home/alex/php/yii/framework/web/widgets/CActiveForm.php(597): activeLabelEx()
+#6 /home/alex/php/messi/protected/views/user/_form.php(17): GxActiveForm->labelEx()
+#7 /home/alex/php/yii/framework/web/CBaseController.php(126): require()
+#8 /home/alex/php/yii/framework/web/CBaseController.php(95): UserController->renderInternal()
+#9 /home/alex/php/yii/framework/web/CController.php(869): UserController->renderFile()
+#10 /home/alex/php/messi/protected/views/user/create.php(19): UserController->renderPartial()
+#11 /home/alex/php/yii/framework/web/CBaseController.php(126): require()
+#12 /home/alex/php/yii/framework/web/CBaseController.php(95): UserController->renderInternal()
+#13 /home/alex/php/yii/framework/web/CController.php(869): UserController->renderFile()
+#14 /home/alex/php/yii/framework/web/CController.php(782): UserController->renderPartial()
+#15 /home/alex/php/messi/protected/controllers/UserController.php(27): UserController->render()
+#16 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#17 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#18 /home/alex/php/yii/framework/web/CController.php(286): UserController->runAction()
+#19 /home/alex/php/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#20 /home/alex/php/yii/framework/web/CWebApplication.php(282): UserController->run()
+#21 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#22 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#23 /home/alex/php/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user/create
+in /home/alex/php/messi/protected/views/user/_form.php (17)
+in /home/alex/php/messi/protected/views/user/create.php (19)
+in /home/alex/php/messi/protected/controllers/UserController.php (27)
+2014/03/18 12:05:04 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 12:05:55 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 12:05:55 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'name'. The SQL statement executed was: INSERT INTO `tbl_user` (`name`, `email`) VALUES (:yp0, :yp1). Bound with :yp0='', :yp1=''.
+in /home/alex/php/messi/protected/controllers/UserController.php (19)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 12:05:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'name'. The SQL statement executed was: INSERT INTO `tbl_user` (`name`, `email`) VALUES (:yp0, :yp1). Bound with :yp0='', :yp1=''' in /home/alex/php/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(1077): CDbCommand->execute()
+#1 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 /home/alex/php/messi/protected/controllers/UserController.php(19): CActiveRecord->save()
+#3 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#4 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/alex/php/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/alex/php/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#8 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/create')
+#9 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/alex/php/messi/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=user/create
+HTTP_REFERER=http://messi/index.php?r=user/create
+---
+2014/03/18 12:07:12 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 12:09:00 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in /home/alex/php/messi/protected/controllers/UserController.php (17)
+in /home/alex/php/messi/index.php (13)
+2014/03/18 21:33:18 [error] [exception.CException] exception 'CException' with message 'Property "User.repeatpassword" is not defined.' in /home/alex/php/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('repeatpassword')
+#1 /home/alex/php/yii/framework/web/helpers/CHtml.php(2529): CActiveRecord->__get('repeatpassword')
+#2 /home/alex/php/yii/framework/web/helpers/CHtml.php(2252): CHtml::resolveValue(Object(User), 'repeatpassword')
+#3 /home/alex/php/yii/framework/web/helpers/CHtml.php(1628): CHtml::activeInputField('password', Object(User), 'repeatpassword', Array)
+#4 /home/alex/php/yii/framework/web/widgets/CActiveForm.php(771): CHtml::activePasswordField(Object(User), 'repeatpassword', Array)
+#5 /home/alex/php/messi/protected/views/user/_form.php(28): CActiveForm->passwordField(Object(User), 'repeatpassword')
+#6 /home/alex/php/yii/framework/web/CBaseController.php(126): require('/home/alex/php/...')
+#7 /home/alex/php/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/alex/php/...', Array, true)
+#8 /home/alex/php/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/alex/php/...', Array, true)
+#9 /home/alex/php/messi/protected/views/user/create.php(19): CController->renderPartial('_form', Array)
+#10 /home/alex/php/yii/framework/web/CBaseController.php(126): require('/home/alex/php/...')
+#11 /home/alex/php/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/alex/php/...', Array, true)
+#12 /home/alex/php/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/alex/php/...', Array, true)
+#13 /home/alex/php/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#14 /home/alex/php/messi/protected/controllers/UserController.php(27): CController->render('create', Array)
+#15 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#16 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /home/alex/php/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#18 /home/alex/php/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#20 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/create')
+#21 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /home/alex/php/messi/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/index.php?r=user/create
+HTTP_REFERER=http://messi/index.php?r=user/create
+---
+2014/03/18 21:33:32 [error] [exception.CException] exception 'CException' with message 'Property "User.repeatpassword" is not defined.' in /home/alex/php/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('repeatpassword')
+#1 /home/alex/php/yii/framework/web/helpers/CHtml.php(2529): CActiveRecord->__get('repeatpassword')
+#2 /home/alex/php/yii/framework/web/helpers/CHtml.php(2252): CHtml::resolveValue(Object(User), 'repeatpassword')
+#3 /home/alex/php/yii/framework/web/helpers/CHtml.php(1628): CHtml::activeInputField('password', Object(User), 'repeatpassword', Array)
+#4 /home/alex/php/yii/framework/web/widgets/CActiveForm.php(771): CHtml::activePasswordField(Object(User), 'repeatpassword', Array)
+#5 /home/alex/php/messi/protected/views/user/_form.php(28): CActiveForm->passwordField(Object(User), 'repeatpassword')
+#6 /home/alex/php/yii/framework/web/CBaseController.php(126): require('/home/alex/php/...')
+#7 /home/alex/php/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/alex/php/...', Array, true)
+#8 /home/alex/php/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/alex/php/...', Array, true)
+#9 /home/alex/php/messi/protected/views/user/create.php(19): CController->renderPartial('_form', Array)
+#10 /home/alex/php/yii/framework/web/CBaseController.php(126): require('/home/alex/php/...')
+#11 /home/alex/php/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/alex/php/...', Array, true)
+#12 /home/alex/php/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/alex/php/...', Array, true)
+#13 /home/alex/php/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#14 /home/alex/php/messi/protected/controllers/UserController.php(27): CController->render('create', Array)
+#15 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#16 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /home/alex/php/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#18 /home/alex/php/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#20 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/create')
+#21 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /home/alex/php/messi/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/index.php?r=user/create
+HTTP_REFERER=http://messi/index.php?r=user/create
+---
+2014/03/18 21:38:14 [error] [exception.CException] exception 'CException' with message 'Property "User.repeatpassword" is not defined.' in /home/alex/php/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(161): CComponent->__set('repeatpassword', '123')
+#1 /home/alex/php/yii/framework/base/CModel.php(472): CActiveRecord->__set('repeatpassword', '123')
+#2 /home/alex/php/messi/protected/controllers/UserController.php(17): CModel->setAttributes(Array)
+#3 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#4 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/alex/php/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/alex/php/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#8 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/create')
+#9 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/alex/php/messi/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=user/create
+HTTP_REFERER=http://messi/index.php?r=user/create
+---
+2014/03/18 21:44:46 [error] [exception.CException] exception 'CException' with message 'Property "User.repeat password" is not defined.' in /home/alex/php/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('repeat password')
+#1 /home/alex/php/yii/framework/web/helpers/CHtml.php(2529): CActiveRecord->__get('repeat password')
+#2 /home/alex/php/yii/framework/web/helpers/CHtml.php(2252): CHtml::resolveValue(Object(User), 'repeat password')
+#3 /home/alex/php/yii/framework/web/helpers/CHtml.php(1628): CHtml::activeInputField('password', Object(User), 'repeat password', Array)
+#4 /home/alex/php/yii/framework/web/widgets/CActiveForm.php(771): CHtml::activePasswordField(Object(User), 'repeat password', Array)
+#5 /home/alex/php/messi/protected/views/user/_form.php(28): CActiveForm->passwordField(Object(User), 'repeat password')
+#6 /home/alex/php/yii/framework/web/CBaseController.php(126): require('/home/alex/php/...')
+#7 /home/alex/php/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/alex/php/...', Array, true)
+#8 /home/alex/php/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/alex/php/...', Array, true)
+#9 /home/alex/php/messi/protected/views/user/create.php(19): CController->renderPartial('_form', Array)
+#10 /home/alex/php/yii/framework/web/CBaseController.php(126): require('/home/alex/php/...')
+#11 /home/alex/php/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/alex/php/...', Array, true)
+#12 /home/alex/php/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/alex/php/...', Array, true)
+#13 /home/alex/php/yii/framework/web/CController.php(782): CController->renderPartial('create', Array, true)
+#14 /home/alex/php/messi/protected/controllers/UserController.php(27): CController->render('create', Array)
+#15 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#16 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /home/alex/php/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#18 /home/alex/php/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#20 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/create')
+#21 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /home/alex/php/messi/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/index.php?r=user/create
+HTTP_REFERER=http://messi/index.php?r=user/create
+---
+2014/03/18 21:45:23 [error] [exception.CException] exception 'CException' with message 'Property "User.repeat" is not defined.' in /home/alex/php/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('repeat')
+#1 /home/alex/php/yii/framework/validators/CRequiredValidator.php(58): CActiveRecord->__get('repeat')
+#2 /home/alex/php/yii/framework/validators/CValidator.php(213): CRequiredValidator->validateAttribute(Object(User), 'repeat')
+#3 /home/alex/php/yii/framework/base/CModel.php(159): CValidator->validate(Object(User), NULL)
+#4 /home/alex/php/yii/framework/db/ar/CActiveRecord.php(805): CModel->validate(NULL)
+#5 /home/alex/php/messi/protected/controllers/UserController.php(19): CActiveRecord->save()
+#6 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#7 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/alex/php/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /home/alex/php/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#11 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('user/create')
+#12 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/alex/php/messi/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=user/create
+HTTP_REFERER=http://messi/index.php?r=user/create
+---
+2014/03/20 18:25:08 [error] [php] Object of class CWebUser could not be converted to string (/home/alex/php/messi/protected/views/user/create.php:15)
+Stack trace:
+#0 /home/alex/php/yii/framework/web/CController.php(869): UserController->renderFile()
+#1 /home/alex/php/yii/framework/web/CController.php(782): UserController->renderPartial()
+#2 /home/alex/php/messi/protected/controllers/UserController.php(26): UserController->render()
+#3 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): UserController->actionCreate()
+#4 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /home/alex/php/yii/framework/web/CController.php(286): UserController->runAction()
+#6 /home/alex/php/yii/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /home/alex/php/yii/framework/web/CWebApplication.php(282): UserController->run()
+#8 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/alex/php/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user/create
+in /home/alex/php/messi/protected/views/user/create.php (15)
+in /home/alex/php/messi/protected/controllers/UserController.php (26)
+in /home/alex/php/messi/index.php (13)
+2014/03/20 18:35:01 [error] [php] Undefined variable: data1 (/home/alex/php/messi/protected/views/site/pages/about.php:11)
+Stack trace:
+#0 /home/alex/php/yii/framework/web/CController.php(869): SiteController->renderFile()
+#1 /home/alex/php/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /home/alex/php/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#3 /home/alex/php/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#4 /home/alex/php/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#5 /home/alex/php/yii/framework/web/CController.php(286): SiteController->runAction()
+#6 /home/alex/php/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /home/alex/php/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/alex/php/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=about
+in /home/alex/php/messi/protected/views/site/pages/about.php (11)
+in /home/alex/php/messi/index.php (13)
+2014/03/20 18:36:03 [error] [php] Undefined variable: data1 (/home/alex/php/messi/protected/views/site/pages/about.php:11)
+Stack trace:
+#0 /home/alex/php/yii/framework/web/CController.php(869): SiteController->renderFile()
+#1 /home/alex/php/yii/framework/web/CController.php(782): SiteController->renderPartial()
+#2 /home/alex/php/yii/framework/web/actions/CViewAction.php(140): SiteController->render()
+#3 /home/alex/php/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#4 /home/alex/php/yii/framework/web/CController.php(308): CViewAction->runWithParams()
+#5 /home/alex/php/yii/framework/web/CController.php(286): SiteController->runAction()
+#6 /home/alex/php/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#7 /home/alex/php/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#8 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/alex/php/messi/index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=site/page&view=about
+in /home/alex/php/messi/protected/views/site/pages/about.php (11)
+in /home/alex/php/messi/index.php (13)
+2014/03/20 18:38:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about1" was not found.' in /home/alex/php/yii/framework/web/actions/CViewAction.php:112
+Stack trace:
+#0 /home/alex/php/yii/framework/web/actions/CViewAction.php(123): CViewAction->resolveView('about1')
+#1 /home/alex/php/yii/framework/web/actions/CAction.php(76): CViewAction->run()
+#2 /home/alex/php/yii/framework/web/CController.php(308): CAction->runWithParams(Array)
+#3 /home/alex/php/yii/framework/web/CController.php(286): CController->runAction(Object(CViewAction))
+#4 /home/alex/php/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('page')
+#6 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/alex/php/messi/index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/index.php?r=site/page&view=about1
+---
+2014/03/20 18:39:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about1".' in /home/alex/php/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/alex/php/yii/framework/web/CController.php(270): CController->missingAction('about1')
+#1 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('about1')
+#2 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/about1')
+#3 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/alex/php/messi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/about1
+---
+2014/03/20 18:39:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "mp".' in /home/alex/php/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/alex/php/yii/framework/web/CController.php(270): CController->missingAction('mp')
+#1 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('mp')
+#2 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/mp')
+#3 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/alex/php/messi/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/mp
+---
+2014/03/20 18:41:12 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "Mp".' in /home/alex/php/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/alex/php/yii/framework/web/CController.php(782): CController->renderPartial('Mp', Array, true)
+#1 /home/alex/php/messi/protected/controllers/SiteController.php(77): CController->render('Mp', Array)
+#2 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionMp()
+#3 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/alex/php/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/alex/php/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('mp')
+#7 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/mp')
+#8 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/alex/php/messi/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/mp
+---
+2014/03/20 18:41:35 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "Mp".' in /home/alex/php/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/alex/php/yii/framework/web/CController.php(782): CController->renderPartial('Mp', Array, true)
+#1 /home/alex/php/messi/protected/controllers/SiteController.php(77): CController->render('Mp', Array)
+#2 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionMp()
+#3 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/alex/php/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/alex/php/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('mp')
+#7 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/mp')
+#8 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/alex/php/messi/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/mp
+---
+2014/03/20 18:41:44 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "Mp".' in /home/alex/php/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/alex/php/yii/framework/web/CController.php(782): CController->renderPartial('Mp', Array, true)
+#1 /home/alex/php/messi/protected/controllers/SiteController.php(77): CController->render('Mp', Array)
+#2 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionMp()
+#3 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/alex/php/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/alex/php/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('mp')
+#7 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/mp')
+#8 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/alex/php/messi/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=site/mp
+---
+2014/03/20 18:43:40 [error] [exception.CException] exception 'CException' with message 'Property "SiteController.var" is not defined.' in /home/alex/php/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/alex/php/messi/protected/views/site/mp.php(2): CComponent->__get('var')
+#1 /home/alex/php/yii/framework/web/CBaseController.php(126): require('/home/alex/php/...')
+#2 /home/alex/php/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/alex/php/...', Array, true)
+#3 /home/alex/php/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/alex/php/...', Array, true)
+#4 /home/alex/php/yii/framework/web/CController.php(782): CController->renderPartial('mp', Array, true)
+#5 /home/alex/php/messi/protected/controllers/SiteController.php(77): CController->render('mp', Array)
+#6 /home/alex/php/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionMp()
+#7 /home/alex/php/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/alex/php/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /home/alex/php/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/alex/php/yii/framework/web/CWebApplication.php(282): CController->run('mp')
+#11 /home/alex/php/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/mp')
+#12 /home/alex/php/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/alex/php/messi/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/index.php?r=site/mp
+---
