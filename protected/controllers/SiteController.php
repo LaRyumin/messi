@@ -65,14 +65,6 @@ class SiteController extends Controller {
     $this->render('contact', array('model' => $model));
   }
 
-  public function actionMp() {
-    $var = "Mp";
-    if (Yii::app()->user->isGuest)
-      $this->actionLogin();
-    else
-    $this->render('mp', array('var' => $var));
-  }
-
   /**
    * Displays the login page
    */
