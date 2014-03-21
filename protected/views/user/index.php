@@ -6,7 +6,7 @@ $this->breadcrumbs = array(
 );
 
 $this->menu = array(
-	array('label'=>'Create' . ' ' . User::label(), 'url' => array('create')),
+	array('label'=>'Create' . ' ' . User::label(), 'url' => array('create'), 'visible'=>Yii::app()->user->isGuest),
 	array('label'=>'Manage' . ' ' . User::label(2), 'url' => array('admin')),
 );
 ?>
@@ -16,4 +16,4 @@ $this->menu = array(
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,
 	'itemView'=>'_view',
-)); 
+));

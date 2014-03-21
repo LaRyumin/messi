@@ -19,7 +19,7 @@ class User extends BaseUser {
         array('repeatpassword', 'compare', 'compareAttribute' => 'password', 'message' => "Passwords don't match"),
         array('repeatpassword', 'required'),
     );
-    return $parrent_rules + $rules ;
+    return array_merge($parrent_rules, $rules);
   }
 
 }
