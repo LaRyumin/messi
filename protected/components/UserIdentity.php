@@ -22,7 +22,7 @@ class UserIdentity extends CUserIdentity {
 
     if ($record === null)
       $this->errorCode = self::ERROR_USERNAME_INVALID;
-    else if ($record->password !== $this->password)
+    else if (!$record->validatePassword($this->password))
       $this->errorCode = self::ERROR_PASSWORD_INVALID;
     else {
       $this->_id = $record->id;

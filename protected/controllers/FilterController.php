@@ -3,7 +3,9 @@
 class FilterController extends Controller {
 
   public function actionIndex() {
-    $this->render('index');
+    $min_price = 150;
+    $max_price = 600;
+    $this->render('index', array('min_price' => $min_price, 'max_price' => $max_price));
   }
 
 }

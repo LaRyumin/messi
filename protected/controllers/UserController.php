@@ -16,10 +16,13 @@ class UserController extends GxController {
         $model->setAttributes($_POST['User']);
 
         if ($model->save()) {
+          $identity = new UserIdentity($model->name, $model->password);
+          if ($identity->authenticate())
+            Yii::app()->user->login($identity);
           if (Yii::app()->getRequest()->getIsAjaxRequest())
             Yii::app()->end();
           else
-            $this->redirect(array('view', 'id' => $model->id));
+            $this->redirect('index');
         }
       }
 

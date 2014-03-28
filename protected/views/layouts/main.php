@@ -17,6 +17,7 @@
     <link href="/img/favicon.ico" rel="icon" />
     <script src="//code.jquery.com/jquery-1.9.1.js"></script>
     <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="<?= Yii::app()->request->baseUrl ?>/js/price_slider.js"></script>
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
   </head>
 
