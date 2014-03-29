@@ -25,6 +25,10 @@
       </div>
     </div>
 
+    <div class="filter-aside-rating">
+      <h4>Рейтинг:</h4>
+    </div>
+
   </div>
 </div>
 
@@ -32,7 +36,7 @@
   $(document).ready(function() {
     price_slider(<?= $min_price ?>, <?= $max_price ?>);
     $("#search").autocomplete({
-      source: ["Бар", "Ресторан", "Кафе"]
+      source: ["Bar", "Bann", "Bre", "Bon"]
     });
   });
 </script>
