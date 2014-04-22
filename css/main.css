@@ -6,7 +6,7 @@ body
   font: normal 10pt Arial,Helvetica,sans-serif;
   background: #EFEFEF;
 }
-
+input {margin: 0; padding: 0; border: 0px;}
 #page
 {
   margin-top: 5px;
@@ -241,6 +241,15 @@ div.search-form
   font: 700 12px "Open Sans",Verdana,sans-serif;
   margin-bottom: 9px;
 }
+.filter-aside .filter-aside-content>div{
+  border-top: 1px solid #CDCDCD;
+  box-shadow: 0 1px #FBFBFB inset;
+  padding: 11px 0;
+}
+.filter-aside .filter-aside-content>div:first-child{
+  border-top: none;
+  box-shadow: none;
+}
 
 .form-cost {
   float: left;
@@ -318,9 +327,6 @@ div.search-form
 }
 
 /* Search */
-.filter-aside-search{  
-  padding: 13px 0;
-}
 .search_wrapper{
   position: relative;
   width: 186px;
@@ -367,4 +373,111 @@ div.search-form
 #ui-id-1 .ui-menu-item .ui-corner-all.ui-state-focus{
   color: #5B5959;
   background-color: #EDEDED;
+}
+
+/* Rating house */
+.rating_house label{
+  display: block;
+  margin-top: 3px;
+}
+.rating_house label input{
+  vertical-align: bottom;
+}
+.rating_house label span{
+  display: inline-block;  
+  background: url(../img/filter/sprite.png) 0 -7px no-repeat;
+  height: 10px;
+  vertical-align: bottom;
+  margin-bottom: 2px;
+}
+.rating_house:hover label span{
+  background: url(../img/filter/sprite.png) 0 -18px no-repeat;  
+}
+.rat5{
+  width: 64px;
+}
+.rat4{
+  width: 51px;
+}
+.rat3{
+  width: 38px;
+}
+.rat2{
+  width: 25px;
+}
+.rat1{
+  width: 12px;
+}
+label.rat0{
+  float: right;
+  margin-right: 5px;
+  margin-top: -17px;
+}
+
+/* cuisine */
+.filter-aside-cuisine .cuisine label{
+  display: block;
+  margin-bottom: 3px;
+}
+.filter-aside-cuisine .cuisine label input{
+  vertical-align: bottom;
+}
+
+#cuisine_more{
+  margin-top: 5px;
+  text-decoration: underline;
+  color: #428BCA;
+  padding-left: 25px;
+}
+#cuisine_more:hover{
+  cursor: pointer;
+}
+#cuisine_more_list{
+  display: none;
+}
+
+/* services */
+.filter-aside-services .services label{
+  display: block;
+  margin-bottom: 3px;
+}
+.filter-aside-services .services input{
+  vertical-align: bottom;
+}
+.filter-aside-services .services label span{
+  display: inline-block;
+  background: url(../img/filter/sprite.png) no-repeat;
+  height: 12px;
+  width: 20px;  
+}
+.filter-aside-services .services label span.service0{
+  background-position: 0 -199px;
+}
+.filter-aside-services .services label span.service1{
+  background-position: 0 -78px;
+  height: 10px;
+}
+.filter-aside-services .services label span.service2{
+  background-position: 0 -131px;
+  height: 16px;
+  vertical-align: middle;
+}
+.filter-aside-services .services label span.service3{
+  background-position: 0 -147px;
+}
+.filter-aside-services .services label span.service4{
+  background-position: 0 -88px;
+  height: 10px;
+}
+.filter-aside-services .services label span.service5{
+  background-position: 0 -98px;
+}
+.filter-aside-services .services label span.service6{
+  background-position: 0 -98px;
+}
+.filter-aside-services .services label span.service7{
+  background-position: 0 -98px;
+}
+.filter-aside-services .services label span.service8{
+  background-position: 0 -98px;
 }
