@@ -1,0 +1,91 @@
+#TicTacToe{
+  color: #000000;
+  font-size: 24px;
+  padding: 5px;
+  position: relative;
+  width: 96px;
+}
+#TicTacToe > div{
+  border: 1px solid #C0C0C0;
+  cursor: pointer;
+  float: left;
+  height: 27px;
+  padding-top: 2px;
+  text-align: center;
+  width: 30px;
+}
+#d1{
+  border-top: 1px solid #FFFFFF!important;
+  border-left: 1px solid #FFFFFF!important;
+}
+#d2{
+  border-top: 1px solid #FFFFFF!important;
+}
+#d3{
+  border-top: 1px solid #FFFFFF!important;
+  border-right: 1px solid #FFFFFF!important;
+}
+#d4{  
+  border-left: 1px solid #FFFFFF!important;
+}
+#d6{
+  border-right: 1px solid #FFFFFF!important;
+}
+#d7{
+  border-bottom: 1px solid #FFFFFF!important;
+  border-left: 1px solid #FFFFFF!important;
+}
+#d8{
+  border-bottom: 1px solid #FFFFFF!important;
+}
+#d9{
+  border-bottom: 1px solid #FFFFFF!important;
+  border-right: 1px solid #FFFFFF!important;
+}
+.crossh{
+  height: 2px;
+  background-color: #FF0000;
+  display: block;
+  position: relative;
+}
+.crossh.p1{
+  top: 15px;
+}
+.crossh.p2{
+  top: 45px;
+}
+.crossh.p3{
+  top: 75px;
+}
+.crossv{
+  background-color: #FF0000;
+  display: block;
+  height: 93px;
+  position: absolute;
+  width: 2px;
+}
+.crossv.p1{
+  left: 20px;
+}
+.crossv.p2{
+  left: 52px;
+}
+.crossv.p3{
+  left: 83px;
+}
+.crossp{
+  background-color: #FF0000;
+  display: block;
+  left: 52px;
+  position: absolute;
+  top: -15px;
+  width: 2px;
+}
+.crossp.p1{
+  height: 132px;
+  transform: rotate(135deg);
+}
+.crossp.p2{
+  height: 134px;
+  transform: rotate(45deg);
+}
